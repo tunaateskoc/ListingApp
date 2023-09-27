@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="post"
+            type="com.rocknhoney.listingapp.core.data.Post" />
+
+        <variable
+            name="imageUrl"
+            type="java.lang.String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Circular Image -->
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            app:loadImage="@{imageUrl}" />
+
+        <!-- Title Input -->
+        <EditText
+            android:id="@+id/titleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints="false"
+            android:hint="@string/title_input"
+            android:inputType="text"
+            android:text="@{post.title}"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!-- Subtitle Input -->
+        <EditText
+            android:id="@+id/subtitleInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints="false"
+            android:hint="@string/subtitle_input"
+            android:inputType="text"
+            android:text="@{post.body}"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <!-- Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/save" />
+    </LinearLayout>
+
+</layout>

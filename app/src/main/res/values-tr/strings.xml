@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Listeleme Uygulaması</string>
+    <string name="error_message">Sayfayı güncellemek için lütfen sayfayı yukarıdan aşağıya doğru çekin.</string>
+    <string name="title_input">Lütfen başlık girin</string>
+    <string name="subtitle_input">Lütfen alt başlık girin</string>
+    <string name="save">Kaydet</string>
+    <string name="post_updated">Post Güncellendi!</string>
+</resources>

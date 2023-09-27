@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Listing App</string>
+    <string name="error_message">In order to refresh the page please use swipe from top to bottom.</string>
+    <string name="title_input">Please enter title</string>
+    <string name="subtitle_input">Please enter subtitle</string>
+    <string name="save">Save</string>
+    <string name="post_updated">Post Updated!</string>
+</resources>
