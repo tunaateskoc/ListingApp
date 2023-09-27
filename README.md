@@ -22,8 +22,8 @@ ListingApp is a sample Android application that demonstrates the implementation 
 
 # API
 
-Posts: "https://jsonplaceholder.typicode.com/"
-Photos: "https://picsum.photos/" 
+- Posts: "https://jsonplaceholder.typicode.com/"
+- Photos: "https://picsum.photos/" 
 
 ## Screenshots
 
