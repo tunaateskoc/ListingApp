@@ -20,19 +20,20 @@ ListingApp is a sample Android application that demonstrates the implementation 
 - Custom ItemTouchHelper for swipe-to-delete.
 - Dark Theme Support.
 
-# API
+## API
 
 - Posts: "https://jsonplaceholder.typicode.com/"
 - Photos: "https://picsum.photos/" 
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
-![Screenshot 4](screenshots/screenshot4.png)
+### Light Theme
+<img src="https://github.com/tunaateskoc/ListingApp/blob/main/screenshots/screenshot1.png" width="200"> <img src="https://github.com/tunaateskoc/ListingApp/blob/main/screenshots/screenshot2.png" width="200">
 
-### Prerequisites
+### Dark Theme
+<img src="https://github.com/tunaateskoc/ListingApp/blob/main/screenshots/screenshot3.png" width="200"> <img src="https://github.com/tunaateskoc/ListingApp/blob/main/screenshots/screenshot4.png" width="200">
+
+## Prerequisites
 
 - Android Studio (latest version)
 - Android SDK with API level 21 or higher
