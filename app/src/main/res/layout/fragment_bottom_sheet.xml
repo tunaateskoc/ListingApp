@@ -34,7 +34,9 @@
             android:layout_marginTop="16dp"
             android:autofillHints="false"
             android:hint="@string/title_input"
-            android:inputType="text"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:scrollbars="vertical"
             android:text="@{post.title}"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -46,7 +48,9 @@
             android:layout_marginTop="8dp"
             android:autofillHints="false"
             android:hint="@string/subtitle_input"
-            android:inputType="text"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:scrollbars="vertical"
             android:text="@{post.body}"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
